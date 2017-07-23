@@ -1,0 +1,20 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>2. [Service] Interface</Name>
+    <Description>Creates an empty interface based on Monkey Service Interface</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ShowByDefault>true</ShowByDefault>
+    <DefaultName>NameOfInterface</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <SortOrder>1</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem TargetFileName="I$fileinputname$Service.cs" ReplaceParameters="true">ServiceInterface.cs</ProjectItem>
+    <CustomParameters>
+      <CustomParameter Name="$company$" Value="Top Nguyen → AspNetCore → Monkey"/>
+      <CustomParameter Name="$companyurl$" Value="http://topnguyen.net/"/>
+      <CustomParameter Name="$solutionname$" Value="Monkey"/>
+    </CustomParameters>
+  </TemplateContent>
+</VSTemplate>
