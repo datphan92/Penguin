@@ -14,10 +14,15 @@ Monkey` Templates.
 
 - If Templates still not appeared then try solution below:
 1. Open CMD as Administrator
-2. "cd" to VS Installed Folder
+2. "cd" to VS Installed Folder:
+`<Visual Studio installation path>\Common7\IDE\ProjectTemplates\` or `<Visual Studio installation path>\Common7\IDE\ItemTemplates\` 
+
+then execute: `devenv /installvstemplates`
+
+Ex:
 ```markup
 > cd "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE"
-> devenev /setup
+> devenv /installvstemplates
 ```
 
 see more: https://msdn.microsoft.com/en-us/library/y3kkate1.aspx

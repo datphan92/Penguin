@@ -750,10 +750,14 @@ pre {
 </ul>
 <ol>
 <li>Open CMD as Administrator</li>
-<li>"cd" to VS Installed Folder</li>
+<li>"cd" to VS Installed Folder:
+<code>&lt;Visual Studio installation path&gt;\Common7\IDE\ProjectTemplates\</code> or <code>&lt;Visual Studio installation path&gt;\Common7\IDE\ItemTemplates\</code>
+</li>
 </ol>
+<p>then execute: <code>devenv /installvstemplates</code></p>
+<p>Ex:</p>
 <pre lang="markup"><code>&gt; cd "C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE"
-&gt; devenev /setup
+&gt; devenv /installvstemplates
 </code></pre>
 <p>see more: <a href="https://msdn.microsoft.com/en-us/library/y3kkate1.aspx">https://msdn.microsoft.com/en-us/library/y3kkate1.aspx</a></p>
 <p><strong>Every time update Template, Need close all VS and run cmd above !</strong></p>
