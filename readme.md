@@ -8,8 +8,9 @@
 1. Go to Visual Studio
 2. Tool > Options
 3. Search for: "Template"
-4. User Item Template Location: <Penguin folder>
-5. - Then Restart Visual Studio, try to use Add New Item and find Puppy, Monkey Templates.
+4. User Item Template Location: `<Penguin folder>`
+5. - Then Restart Visual Studio, try to use Add New Item and find `Puppy`, `
+Monkey` Templates.
 
 - If Templates still not appeared then try solution below:
 1. Open CMD as Administrator
@@ -19,8 +20,9 @@
 > devenev /setup
 ```
 
-** Every time update Template, Need close all VS and run cmd above ! **
 see more: https://msdn.microsoft.com/en-us/library/y3kkate1.aspx
+
+**Every time update Template, Need close all VS and run cmd above !**
 
 ## Guide to Export Item as Template
 1. Export Template
