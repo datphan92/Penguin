@@ -49,3 +49,26 @@ see more: https://msdn.microsoft.com/en-us/library/y3kkate1.aspx
 
 2. Then Restart Visual Studio, try to use Add New Item.
 3. Done
+
+# List Recommend Visual Studio Extensions
+
+http://resharper.topnguyen.net/
+http://www.codemaid.net/
+https://github.com/madskristensen/BundlerMinifier
+https://github.com/madskristensen/WebCompiler
+https://github.com/madskristensen/IgnoreFiles
+
+https://github.com/madskristensen/MarkdownEditor
+https://marketplace.visualstudio.com/items?itemName=MadsKristensen.FileNesting
+https://github.com/madskristensen/JavaScriptRegions
+
+http://viasfora.com/
+http://mike-ward.net/vscoloroutput/
+https://github.com/madskristensen/FileIcons
+
+http://einaregilsson.com/stop-build-on-first-error-in-visual-studio-2010/
+http://www.omarelabd.net/exporting-objects-from-the-visual-studio-debugger/
+
+https://blogs.msdn.microsoft.com/dotnet/2014/08/06/leveraging-existing-code-across-net-platforms/
+
+
