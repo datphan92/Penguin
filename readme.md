@@ -4,6 +4,8 @@
 
 - This is Template Project for AspNetCore Frameworks [Puppy](https://github.com/stssoftware/Puppy) and AspNetCore Web [Monkey](https://github.com/stssoftware/Monkey)
 
+- Trello Board: [[AspNetCore] Monkey - Puppy - Penguin](https://trello.com/b/6QCEBwcU)
+
 ## Import Templates to Visual Studio
 1. Go to Visual Studio
 2. Tool > Options
