@@ -1,0 +1,20 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>4. [Entity] Class</Name>
+    <Description>Create a class based on Monkey Entity Class</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ShowByDefault>true</ShowByDefault>
+    <DefaultName>NameOfEntity</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <SortOrder>1</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem TargetFileName="$fileinputname$Entity.cs" ReplaceParameters="true">EntityClass.cs</ProjectItem>
+    <CustomParameters>
+      <CustomParameter Name="$company$" Value="Top Nguyen → AspNetCore → Monkey"/>
+      <CustomParameter Name="$companyurl$" Value="http://topnguyen.net/"/>
+      <CustomParameter Name="$solutionname$" Value="Monkey"/>
+    </CustomParameters>
+  </TemplateContent>
+</VSTemplate>
