@@ -1,5 +1,4 @@
 ﻿using $solutionname$.Data.Entities;
-using Puppy.EF.Interfaces;
 
 namespace $rootnamespace$
 {
