@@ -1,7 +1,7 @@
-<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <Name>1. Interface</Name>
-    <Description></Description>
+    <Description>Create an interface based on IDWF Interface</Description>
     <ProjectType>CSharp</ProjectType>
     <ShowByDefault>true</ShowByDefault>
     <DefaultName>NameOfInterface</DefaultName>
@@ -11,5 +11,8 @@
   </TemplateData>
   <TemplateContent>
     <ProjectItem TargetFileName="I$fileinputname$.cs" ReplaceParameters="true">Interface.cs</ProjectItem>
+    <CustomParameters>
+      <CustomParameter Name="$solutionname$" Value="IDWF"/>
+    </CustomParameters>
   </TemplateContent>
 </VSTemplate>

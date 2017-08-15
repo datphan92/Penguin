@@ -1,7 +1,7 @@
-<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+﻿<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <Name>4. [Repository] Class</Name>
-    <Description></Description>
+    <Description>Create a class based on IDWF Repository Class</Description>
     <ProjectType>CSharp</ProjectType>
     <ShowByDefault>true</ShowByDefault>
     <DefaultName>NameOfRepository</DefaultName>
@@ -11,5 +11,8 @@
   </TemplateData>
   <TemplateContent>
     <ProjectItem TargetFileName="$fileinputname$Repository.cs" ReplaceParameters="true">RepositoryClass.cs</ProjectItem>
+    <CustomParameters>
+      <CustomParameter Name="$solutionname$" Value="IDWF"/>
+    </CustomParameters>
   </TemplateContent>
 </VSTemplate>
