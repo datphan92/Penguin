@@ -1,6 +1,6 @@
 ﻿using $solutionname$.Data.Entities;
 using $solutionname$.Data.Interfaces;
-using Puppy.DependencyInjection.Attributes
+using Puppy.DependencyInjection.Attributes;
 
 namespace $rootnamespace$
 {
