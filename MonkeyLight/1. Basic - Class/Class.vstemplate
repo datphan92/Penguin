@@ -1,0 +1,15 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <Name>1. Class</Name>
+    <Description></Description>
+    <ProjectType>CSharp</ProjectType>
+    <ShowByDefault>true</ShowByDefault>
+    <DefaultName>NameOfFileWithExtension</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <SortOrder>1</SortOrder>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem TargetFileName="$fileinputname$.cs" ReplaceParameters="true">Class.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
