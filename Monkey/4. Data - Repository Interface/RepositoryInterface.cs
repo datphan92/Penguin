@@ -21,7 +21,7 @@ using $solutionname$.Data.Entities;
 
 namespace $rootnamespace$
 {
-	public interface $safeitemname$: IBaseEntityRepository<$fileinputname$Entity> 
+	public interface $safeitemname$: IEntityRepository<$fileinputname$Entity> 
 	{
 	}
 }

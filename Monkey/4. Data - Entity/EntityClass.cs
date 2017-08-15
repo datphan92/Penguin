@@ -23,7 +23,7 @@ using Puppy.DependencyInjection.Attributes
 
 namespace $rootnamespace$
 {
-    public class $safeitemname$: BaseEntity
+    public class $safeitemname$: Entity
 	{
     }
 }

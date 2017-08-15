@@ -1,6 +1,6 @@
 ﻿namespace $rootnamespace$
 {
-    public class $safeitemname$: BaseEntity
+    public class $safeitemname$: Entity
 	{
     }
 }
