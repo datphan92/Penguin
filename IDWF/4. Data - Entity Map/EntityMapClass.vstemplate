@@ -10,7 +10,7 @@
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem TargetFileName="$fileinputname$Entity.cs" ReplaceParameters="true">EntityMapClass.cs</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$EntityMap.cs" ReplaceParameters="true">EntityMapClass.cs</ProjectItem>
     <CustomParameters>
       <CustomParameter Name="$solutionname$" Value="IDWF"/>
     </CustomParameters>
