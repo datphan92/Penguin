@@ -1,6 +1,6 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <Name>4. [Entity] Map Class</Name>
+    <Name>4. [Entity] Entity Map Class</Name>
     <Description>Create a Map Class based on Monkey Entity Map Class</Description>
     <ProjectType>CSharp</ProjectType>
     <ShowByDefault>true</ShowByDefault>
