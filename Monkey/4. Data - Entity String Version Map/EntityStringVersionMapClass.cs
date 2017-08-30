@@ -4,7 +4,7 @@
 //     <Copyright> $year$ © $company$ </Copyright>
 //     <Url> $companyurl$ </Url>
 //     <Author> $username$ </Author>
-//     <Project> $solutionname$ → Entity String Map </Project>
+//     <Project> $solutionname$ → Entity Map </Project>
 //     <File>
 //         <Name> $safeitemname$.cs </Name>
 //         <Created> $time$ </Created>
@@ -24,7 +24,7 @@ using Puppy.EF.Mapping;
 
 namespace $rootnamespace$
 {
-    public class $safeitemname$: EntityStringTypeConfiguration<$fileinputname$Entity>
+    public class $safeitemname$: EntityStringVersionTypeConfiguration<$fileinputname$Entity>
 	{
         public override void Map(EntityTypeBuilder<$fileinputname$Entity> builder)
         {
