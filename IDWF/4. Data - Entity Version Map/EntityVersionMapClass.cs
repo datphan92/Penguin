@@ -5,7 +5,7 @@ using Puppy.EF.Mapping;
 
 namespace $rootnamespace$
 {
-    public class $safeitemname$: EntityTypeConfiguration<$fileinputname$Entity>
+    public class $safeitemname$: EntityVersionTypeConfiguration<$fileinputname$Entity>
 	{
         public override void Map(EntityTypeBuilder<$fileinputname$Entity> builder)
         {

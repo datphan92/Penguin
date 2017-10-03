@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
-    <Name>4. [Entity] Entity Map Class</Name>
-    <Description>Create a Map Class based on Monkey Entity Map Class</Description>
+    <Name>4. [Entity] Entity String Version Map Class</Name>
+    <Description>Create a Map Class based on IDWF Entity String Version Map Class</Description>
     <ProjectType>CSharp</ProjectType>
     <ShowByDefault>true</ShowByDefault>
     <DefaultName>NameOfEntity</DefaultName>
@@ -10,11 +10,9 @@
     <Icon>__TemplateIcon.ico</Icon>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem TargetFileName="$fileinputname$EntityMap.cs" ReplaceParameters="true">EntityMapClass.cs</ProjectItem>
+    <ProjectItem TargetFileName="$fileinputname$EntityMap.cs" ReplaceParameters="true">EntityStringVersionTypeConfiguration.cs</ProjectItem>
     <CustomParameters>
-      <CustomParameter Name="$company$" Value="Top Nguyen → AspNetCore → Monkey"/>
-      <CustomParameter Name="$companyurl$" Value="http://topnguyen.net/"/>
-      <CustomParameter Name="$solutionname$" Value="Monkey"/>
+      <CustomParameter Name="$solutionname$" Value="IDWF"/>
     </CustomParameters>
   </TemplateContent>
 </VSTemplate>

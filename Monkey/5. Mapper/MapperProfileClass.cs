@@ -4,7 +4,7 @@
 //     <Copyright> $year$ © $company$ </Copyright>
 //     <Url> $companyurl$ </Url>
 //     <Author> $username$ </Author>
-//     <Project> $solutionname$ → Entity Map </Project>
+//     <Project> $solutionname$ → Mapper <Project>
 //     <File>
 //         <Name> $safeitemname$.cs </Name>
 //         <Created> $time$ </Created>
@@ -17,11 +17,16 @@
 //------------------------------------------------------------------------------------------------
 #endregion License
 
-using $solutionname$.Data.Entities;
+using AutoMapper;
+using Puppy.AutoMapper;
 
 namespace $rootnamespace$
 {
-    public class $safeitemname$: Entity
+    public class $safeitemname$: Profile
 	{
+		public $safeitemname$()
+        {
+            // CreateMap<, >().IgnoreAllNonExisting();
+        }
     }
 }

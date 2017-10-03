@@ -4,7 +4,7 @@
 //     <Copyright> $year$ © $company$ </Copyright>
 //     <Url> $companyurl$ </Url>
 //     <Author> $username$ </Author>
-//     <Project> $solutionname$ → Entity Map </Project>
+//     <Project> $solutionname$ → Entity String Map </Project>
 //     <File>
 //         <Name> $safeitemname$.cs </Name>
 //         <Created> $time$ </Created>
@@ -17,11 +17,20 @@
 //------------------------------------------------------------------------------------------------
 #endregion License
 
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using $solutionname$.Data.Entities;
+using Puppy.EF.Mapping;
 
 namespace $rootnamespace$
 {
-    public class $safeitemname$: Entity
+    public class $safeitemname$: EntityStringTypeConfiguration<$fileinputname$Entity>
 	{
+        public override void Map(EntityTypeBuilder<$fileinputname$Entity> builder)
+        {
+			base.Map(builder);
+
+            builder.ToTable(nameof($fileinputname$Entity));
+        }
     }
 }
